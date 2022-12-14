@@ -1,0 +1,91 @@
+<div class="jumbotron mt-4">
+    <h3 align="center">NUEVO PRODUCTO</h3>
+    <br>
+    <!---->
+    <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+            <div class="col mx-auto">
+                <div class="card">
+                <div class="card-body">
+                    <form action="/products/newproduct" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Nombre" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <textarea  name="description" class="form-control" placeholder="Descripción"></textarea>
+                    </div>
+                     <div class="form-group">
+                        <textarea  name="category" class="form-control" placeholder="Categoria"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <textarea  name="composition" class="form-control" placeholder="Composición"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-primary btn-block" type="submit">Agregar</button>
+                    </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!----->
+             <div class="form-group">
+                     <p align="center"><a href="../products" class="btn btn-success btn-lg" type="submit">Ver productos</button></a>
+              </div>
+            <!----->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 align="center">ME LATE CHOCOLATE</h5>
+          <img src="/img/1.png" class="rounded-circle mx-auto d-block m-4 signin" alt="sigin"/>
+          <br>
+          <!----->
+          <table class="table table-light">
+              <thead>
+              <tr>
+                <th >Categorias</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Chocolate</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Productos Cacao puro</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Productos a base de frutos</td>
+              </tr>
+                 <tr>
+                <td>4</td>
+                <td>Secos</td>
+              </tr>
+                 <tr>
+                <td>5</td>
+                <td>Croustillants</td>
+              </tr>
+                 <tr>
+                <td>6</td>
+                <td>Productos listos para usar</td>
+              </tr>
+            </tbody>
+          </table>
+          <!----->
+      </div>
+    </div>
+  </div>
+</div>
+    <!---->
+
+</div>

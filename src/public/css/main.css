@@ -1,0 +1,11 @@
+.main {
+    /*background: url(https://i.pinimg.com/474x/d3/f2/eb/d3f2ebf17da0ba6fb65380567477bdc4.jpg);*/
+    background: url(https://i.pinimg.com/564x/da/d1/83/dad183ca02a9f37e7467a77b87cac16e.jpg) repeat;
+    /*background: #AA076B;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}   
+
+.signin{
+    width: 30%;
+}

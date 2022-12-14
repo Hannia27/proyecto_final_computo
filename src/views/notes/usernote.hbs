@@ -1,0 +1,18 @@
+<!--- esta vista, vamos a poder observar las notas-->
+<div class="jumbotron mt-4">
+    <h3 align="center"> NEWSLETTER</h3>
+    <br>
+        {{#each notes}}
+        <br>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title d-flex justify-content-between align-items-center">
+                            {{title}}
+                        </h4>
+                        <p>{{description}}</p>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+</div>
